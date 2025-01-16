@@ -31,6 +31,7 @@ $config = @{
     StartDate = "2024-12-01"  # Data początkowa (format: yyyy-MM-dd)
     EndDate = "2025-01-16"    # Data końcowa (format: yyyy-MM-dd)
 }
+```
 
 ## Użycie
 Otwórz PowerShell jako administrator
