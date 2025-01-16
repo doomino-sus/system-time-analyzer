@@ -34,9 +34,9 @@ $config = @{
 ```
 
 ## Użycie
-Otwórz PowerShell jako administrator
-Przejdź do katalogu ze skryptem
-Uruchom skrypt:
+Otwórz PowerShell jako administrator  
+Przejdź do katalogu ze skryptem  
+Uruchom skrypt:  
 .\system_time_analyzer.ps1
 
 ## Format wyników
