@@ -41,12 +41,12 @@ Uruchom skrypt:
 
 ## Format wyników
 Skrypt generuje plik CSV z następującymi kolumnami:
-Data - data w formacie YYYY-MM-DD
-Pierwsze_Uruchomienie - czas pierwszego uruchomienia systemu
-Ostatnie_Zamkniecie - czas ostatniego zamknięcia systemu
-Czas_Pracy - całkowity czas pracy systemu w danym dniu
+- Data - data w formacie YYYY-MM-DD
+- Pierwsze_Uruchomienie - czas pierwszego uruchomienia systemu
+- Ostatnie_Zamkniecie - czas ostatniego zamknięcia systemu
+- Czas_Pracy - całkowity czas pracy systemu w danym dniu
 
 Wartości specjalne:
---- - dzień bez aktywności systemu
-Brak danych - brak informacji o zdarzeniu
+- --- - dzień bez aktywności systemu
+- Brak danych - brak informacji o zdarzeniu
 
