@@ -31,3 +31,21 @@ $config = @{
     StartDate = "2024-12-01"  # Data początkowa (format: yyyy-MM-dd)
     EndDate = "2025-01-16"    # Data końcowa (format: yyyy-MM-dd)
 }
+
+## Użycie
+Otwórz PowerShell jako administrator
+Przejdź do katalogu ze skryptem
+Uruchom skrypt:
+.\system_time_analyzer.ps1
+
+## Format wyników
+Skrypt generuje plik CSV z następującymi kolumnami:
+Data - data w formacie YYYY-MM-DD
+Pierwsze_Uruchomienie - czas pierwszego uruchomienia systemu
+Ostatnie_Zamkniecie - czas ostatniego zamknięcia systemu
+Czas_Pracy - całkowity czas pracy systemu w danym dniu
+
+Wartości specjalne:
+--- - dzień bez aktywności systemu
+Brak danych - brak informacji o zdarzeniu
+
